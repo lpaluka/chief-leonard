@@ -1,0 +1,213 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 4px 1px #33333387;
+}
+.summary{
+  height: 90px;
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 5.8fr 0.5fr 0.4fr 1.4fr 0fr;
+}
+.main-nav{
+  padding-top: 25px ;
+}
+.main-nav .underline{
+  text-decoration: underline 2px;
+}
+.main-nav a{
+  text-decoration: none;
+  margin: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #457be7;
+}
+.lang-it{
+  margin-top: 13px;
+}
+.lang-en{
+  margin-top: 22px;
+}
+.copartner{
+  height: 45px;
+  width: 130px;
+  padding: 13px 18px;
+  border-radius: 0  0 5px 5px;
+  box-shadow: 2px 2px 4px 0px #333;
+  background-color: #50adda;
+}
+.member{
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+.contribute{
+  height: 45px;
+  width: 100px;
+  padding: 13px 32px;
+  border-radius: 0  0 5px 5px;
+  box-shadow: 2px 2px 4px 0px #333;
+  background-color: #2173c7;
+}
+.make_donation{
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+                                                        
+.slider-iniziative{                                                  /* Inizio pagina iniziative*/
+  height: 500px;
+  background-image: url(../img/foto_iniziative.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: flex-end;
+}  
+.head-img-iniziative{
+  color: #ffffff;
+  margin-bottom: 70px;
+  background-color: rgba(43, 117, 181, 0.8);
+  width: 260px;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 0 20px 20px 0;
+}
+.page-content{
+  width: 1300px;
+  margin: 50px auto 0;
+}
+.post-content{
+  display: flex;
+  justify-content: space-between;
+}
+.preamble{
+  padding: 50px 50px 0 0;
+}
+h2{
+  font-size: 20px;
+  padding-bottom: 40px;
+  color: #2B75B5;
+}
+.preamble p{
+  font-size: 18px;
+  padding-bottom: 40px;
+  color: #2B75B5;
+}
+hr{
+  margin: 40px 0;
+}
+.item-story{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-element{
+  width: 500px;
+  padding-top: 20px;
+}
+.item-element img{
+  padding-bottom: 20px;
+}
+.item-element p{
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #2B75B5;
+}
+.item-element a{
+  font-size: 18px;
+  text-decoration: none;
+  float: right;
+  color: #2B75B5;
+  padding-bottom: 30px;
+}                                                            /*Fine pagina iniziative*/
+footer{
+  background-color: #2B75B5;
+  height: 300px;
+}
+.fascia-footer{
+max-width: 1300px;
+margin: 0 auto;
+height: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.blocco-footer{
+  width: 240px;
+  height: 150px;
+  background-color: #0064959e;
+  color: #ffffff;
+  padding: 20px 47px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.6);
+}
+
+.blocco-footer p{
+  padding-top: 10px;
+  font-size: 10px;
+}
+.blocco-footer ul{
+  font-weight: 600;
+  padding: 10px 16px;
+}
+.blocco-footer-copartner{
+  flex-direction: column;
+  text-align: center
+  
+}
+.blocco-footer-folder{
+  width: 240px;
+  height: 75px;
+  padding-top: 25px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.6);
+  background-color: #1F538F;
+  color: #ffffff;
+}
+.blocco-footer-file{
+  width: 240px;
+  height: 75px;
+  padding-top: 25px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.6);
+  background-color: #0064959e;
+  color: #ffffff;
+}
+.blocco-footer-folder a, .blocco-footer-file a{
+  font-size: 18px;
+}
+.blocco-footer-last{
+  text-align: center;
+  width: 280px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.6);
+}
+.private p{
+  padding-top: 60px;
+  font-size: 15.5px;
+  text-align: center;
+  color: #fff;
+}
